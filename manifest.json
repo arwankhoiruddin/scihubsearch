@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Find DOI in sci-hub",
+  "short_name": "scihubsearch",
+  "description": "This extension will find scientific article from sci-hub by simply select the DOI of the paper you want to open then right click this extension",
+  "version": "0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "scihub16.png",
+    "48": "scihub48.png",
+    "128": "scihub128.png"
+  },
+  "background": {
+     "page": "background.html"
+  }
+}
