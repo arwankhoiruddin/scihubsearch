@@ -1,3 +1,4 @@
+
 {
   "manifest_version": 2,
   "name": "Find DOI in sci-hub",
@@ -14,7 +15,6 @@
     "128": "icons/scihub128.png"
   },
   "background": {
-     "scripts": ["background.js"],
-     "persistent": false
+     "page": "background.html"
   }
 }
