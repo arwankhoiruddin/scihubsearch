@@ -9,9 +9,9 @@
     "contextMenus", 
     "tabs"],
   "icons": {
-    "16": "scihub16.png",
-    "48": "scihub48.png",
-    "128": "scihub128.png"
+    "16": "icons/scihub16.png",
+    "48": "icons/scihub48.png",
+    "128": "icons/scihub128.png"
   },
   "background": {
      "page": "background.html"
