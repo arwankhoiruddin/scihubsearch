@@ -8,4 +8,13 @@ Followings are steps to install: <br>
 3. Drag and drop scihubsearch.crx into your chrome and follow the instruction <br>
 4. Enjoy! <br>
 
+# How to use
+1. Open scientific paper that you want to download
+2. Find the DOI
+3. Select the DOI
+4. Right click on the DOI
+5. Click "search DOI on Sci-Hub"
+6. You will be redirected to sci-hub
+7. Enjoy! <br>
+
 Arwan Khoiruddin
