@@ -16,5 +16,7 @@ Followings are steps to install: <br>
 5. Click "search DOI on Sci-Hub"
 6. You will be redirected to sci-hub
 7. Enjoy! <br>
+ 
+For detail direction on how to use this extension, please refer to http://arwanpiyungan.blogspot.co.id/2016/06/how-to-use-find-doi-in-sci-hub-google.html
 
 Arwan Khoiruddin
