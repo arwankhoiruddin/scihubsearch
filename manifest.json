@@ -4,17 +4,23 @@
   "name": "Find DOI in sci-hub",
   "short_name": "scihubsearch",
   "description": "Find scientific article from sci-hub by selecting the DOI of the paper you want  then right click this extension",
-  "version": "1.2",
+  "version": "1.3",
+  "manifest_version": 2,
   "minimum_chrome_version": "38",
   "permissions": [
-    "contextMenus", 
-    "tabs"],
+    "contextMenus",
+    "tabs"
+  ],
   "icons": {
     "16": "icons/scihub16.png",
     "48": "icons/scihub48.png",
     "128": "icons/scihub128.png"
   },
+  "browser_action": {
+    "default_icon": "icons/scihub16.png",
+    "scripts": ["main.js"]
+  },
   "background": {
-     "page": "background.html"
+    "page": "background.html"
   }
 }
