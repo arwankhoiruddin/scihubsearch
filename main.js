@@ -1,6 +1,11 @@
-searchSciHub = function(word){
+searchSciHub = function(word, tab){
   var query = word.selectionText;
-  chrome.tabs.update({url: "http://sci-hub.cc/" + query});
+  if (query == undefined) {
+    var tabURL = tab.url;
+    chrome.tabs.update({url: "http://sci-hub.cc/" + tabURL});
+  } else {
+    chrome.tabs.update({url: "http://sci-hub.cc/" + query});
+  }
 };
 
 chrome.browserAction.onClicked.addListener(function(tab) {
@@ -10,6 +15,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 
 chrome.contextMenus.create({
   title: "Search DOI in sci-hub",
-  contexts:["selection"],
+  contexts:["selection", "all"],
   onclick: searchSciHub
 });

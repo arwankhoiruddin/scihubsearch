@@ -21,7 +21,15 @@ Download from https://chrome.google.com/webstore/detail/find-doi-in-sci-hub/mpon
 5. Click "search DOI on Sci-Hub"
 6. You will be redirected to sci-hub
 7. Enjoy! <br>
- 
+
 For detail direction on how to use this extension, please refer to http://arwanpiyungan.blogspot.co.id/2016/06/how-to-use-find-doi-in-sci-hub-google.html
 
 Arwan Khoiruddin
+
+# Updates
+
+# Version 1.3.1
+* Added interaction: user can just right click on the page and click on the "Find DOI in Sci Hub" extension
+
+# Version 1.3
+* Added interaction: user can just click on the extension's button in Chrome bar without the need to select the DOI in the paper page.
