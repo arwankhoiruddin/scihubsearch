@@ -2,15 +2,15 @@ searchSciHub = function(word, tab){
   var query = word.selectionText;
   if (query == undefined) {
     var tabURL = tab.url;
-    chrome.tabs.update({url: "http://sci-hub.cc/" + tabURL});
+    chrome.tabs.update({url: "http://sci-hub.bz/" + tabURL});
   } else {
-    chrome.tabs.update({url: "http://sci-hub.cc/" + query});
+    chrome.tabs.update({url: "http://sci-hub.bz/" + query});
   }
 };
 
 chrome.browserAction.onClicked.addListener(function(tab) {
   var tabURL = tab.url;
-  chrome.tabs.update({url: "http://sci-hub.cc/" + tabURL});
+  chrome.tabs.update({url: "http://sci-hub.bz/" + tabURL});
 });
 
 chrome.contextMenus.create({
