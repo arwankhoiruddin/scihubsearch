@@ -4,15 +4,15 @@ searchSciHub = function(word, tab){
   var query = word.selectionText;
   if (query == undefined) {
     var tabURL = tab.url;
-    chrome.tabs.update({url: scihubURL + tabURL});
+    chrome.tabs.create({url: scihubURL + tabURL});
   } else {
-    chrome.tabs.update({url: scihubURL + query});
+    chrome.tabs.create({url: scihubURL + query});
   }
 };
 
 chrome.browserAction.onClicked.addListener(function(tab) {
   var tabURL = tab.url;
-  chrome.tabs.update({url: scihubURL + tabURL});
+  chrome.tabs.create({url: scihubURL + tabURL});
 });
 
 chrome.contextMenus.create({
