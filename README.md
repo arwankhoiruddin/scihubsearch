@@ -8,6 +8,9 @@ This is a chrome extension to search scientific document from sci-hub based on D
 3. Click "LOAD UNPACKED" and go to the folder where you extract this repository. 
 4. Now you have your extension. Enjoy! <br>
 
+## More Installation Choice
+If you prefer to open the paper in the new tab, please use the newtab branch of this repository. To do so, please click on the branch and choose newtab. You can download the newtab branch repository and do step 2,3 and 4 above to install 
+
 # How to use?
 
 ## Alternative 1
