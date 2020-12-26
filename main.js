@@ -1,4 +1,4 @@
-var scihubURL = "https://whereisscihub.now.sh/go/";
+var scihubURL = "https://sci-hub.do/";
 
 searchSciHub = function(word, tab){
   var query = word.selectionText;
