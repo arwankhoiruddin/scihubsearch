@@ -16,7 +16,7 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 
 chrome.contextMenus.create({
-  title: "Search DOI in sci-hub",
+  title: "Load full text paper from sci-hub",
   contexts:["selection", "all"],
   onclick: searchSciHub
 });
